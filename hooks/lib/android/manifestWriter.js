@@ -4,6 +4,7 @@ Class injects plugin preferences into AndroidManifest.xml file.
 
 var path = require('path');
 var xmlHelper = require('../xmlHelper.js');
+var fs = require('fs');
 
 module.exports = {
   writePreferences: writePreferences
